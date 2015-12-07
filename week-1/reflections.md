@@ -50,3 +50,13 @@ I feel that “cd”, “cd ..”, “ls”, and “pwd” are the most useful c
 -help  In bash, this tells you potentially useful stuff.  You can type “help ” plus a command to learn about a command.
 
 #1.3 Forking and Cloning Reflection
+
+* If you were going to write instructions for a new person on how to create a new repo, fork a repo, and clone a repo, what would they be? Why would you fork a repository as opposed to create a new one?
+To create a new repo in GitHub, click a button with a "+" on it near the top right corner of your home screen.  Then, create a name, choose who you want looking at it (usually public), maybe a license, and any other options you see fit.
+
+To fork a repo, find the repo you want to fork in GitHub.  Ensure you are not forking something in your own profile by checking the name of the repository near the top left corner of the screen.  Lastly, click the fork button near the top right corner of the screen.
+
+To clone a repo, copy the URL from your repository you forked from someplace else.  In your terminal, navigate to the directory you want to contain the repo, then type "git clone " and paste the URL.  Press enter, and voila.
+
+* What struggles did you have setting up git and GitHub? What did you learn in the process?
+I posses only a rudimentary, surface level understanding of git and GitHub.  To understand the complete depth of all things internet is a life-long pursuit.  Knowing what I need to know is the struggle.  I learned how to fork, clone, and create a repository from GitHub.

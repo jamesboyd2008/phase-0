@@ -1,6 +1,6 @@
 How does tracking and adding changes make developers' lives easier? If we did not track changes, developing software would be like multiple people trying to untangle the same ball of Christmas lights. We would be constantly working against ourselves, and fury would ensue. Tracking changes clarifies the situation and allows us to work together much more efficiently.
 
-What is a commit? A commit is saved version of a file/project.
+What is a commit? A commit is a saved version of a file/project.
 
 What are the best practices for commit messages? Commit early and often. Use the imperative mood with all verbs. The initial, one line summary should be 50 characters or less. Keep the width of your message within 72 spaces. Use newlines to separate paragraphs.
 

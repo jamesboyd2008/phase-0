@@ -1,0 +1,35 @@
+* How does tracking and adding changes make developers' lives easier?
+If we did not track changes, developing software would be like multiple people trying to untangle the same ball of Christmas lights.  We would be constantly working against ourselves, and fury would ensue.  Tracking changes clarifies the situation and allows us to work together much more efficiently.
+
+* What is a commit?
+A commit is a proposed change to a file/project.
+
+* What are the best practices for commit messages?
+Commit early and often.  Use the imperative mood with all verbs.  The initial, one line summary should be 50 characters or less.  Keep the width of your message within 72 spaces.  Use newlines to separate paragraphs.
+
+* What does the HEAD^ argument mean?
+It is referring to the last commit, i.e., the one before the one on which you are working.
+
+* What are the 3 stages of a git change and how do you move a file from one stage to the other?
+The three stages are adding the change to the stage, committing the change, and pushing the change to the remote version control place (GitHub).  The fourth stage is creating a pull request online.
+Once you have made the change on your local machine, if you are not already there, in the terminal, go to the branch of the project in which you made the change, and go to the directory in which you made the change.  Type "git add ." to stage the change.  Then, type 'git commit -m "explain the change"'.  Checkout to the master branch with "git checkout master".  Pull the remote repo from GitHub by typing "git pull origin master".  Checkout to the branch with the change with "git checkout feature-branch".  Then type "git merge master" to merge the master branch into your branch with the change (feature-branch).  Push the feature branch to the remote repo with "git push origin feature-branch".
+
+* Write a handy cheatsheet of the commands you need to commit your changes?
+git checkout -b feature-branch
+*save changes*
+git add .
+git commit -m "explain"
+git checkout master
+git pull origin master
+git checkout feature-branch
+git merge master
+git push origin feature-branch
+*create the pull request on GitHub*
+git branch -d feature-branch
+
+* What is a pull request and how do you create and merge one?
+A pull request is your *request* that your commit be *pulled* into the master branch.  It's how you get your work added to the project.
+In a web browser, go to the remote repo, and find your commit.  Next to it, click "Compare & pull request".  Title your pull request, describe it, and finally click "Create pull request".  Somebody else will review your pull request and merge it with the master branch.  If you are trying to merge a pull request, just click the green "merge" button.  Then, you can delete the old feature-branch.
+
+* Why are pull requests preferred when working with teams?
+Pull requests are preffered so everyone can play from the same sheet of music.  If people edited the master branch all willy nilly, the project would turn into a jumbled ball of chaos.

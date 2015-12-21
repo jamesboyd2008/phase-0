@@ -1,0 +1,132 @@
+html {
+  color: #000080;
+  background-color: #ffffff;
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    border-bottom: 1px solid black;
+    padding: 1em;
+}
+
+#face {
+  margin: auto;
+  display: block;
+}
+
+.big {
+    font-size: 25px;
+}
+
+.small {
+    font-size: 15px;
+}
+
+.teenie {
+    font-size: 10px;
+    display: block;
+}
+
+li {
+  padding: 1em;
+}
+
+a {
+  color: #800080;
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+#div-1 {
+  float: left;
+  width: 45%;
+  margin-left: 2%;
+}
+
+#div-2 {
+  float: right;
+  width: 45%;
+}
+
+#geico {
+  text-align: center;
+  font-size: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 1em;
+  display: block;
+}
+
+#quote {
+  display: block;
+}
+
+.comments {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid black;
+  font-size: 13px;
+}
+
+footer {
+  bottom: 0;
+  clear: both;
+}
+
+.legal {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#boldie {
+  font-weight: bold;
+  font-size:  10px;
+}
+
+.weenie {
+  font-size: 10px;
+}
+
+/*
+What is important to know when linking 
+an external file (like a stylesheet) to an HTML file?
+
+It is important to know the path for the CSS file. 
+We had to go up a directory using ../ in our HTML file.
+It is good practice to link stylesheets in the head section of the HTML file.
+
+What tricks did you use to help you with positioning? 
+How hard was it to get the site as you wanted it?
+
+We did a lot of trial and error.  
+We looked up the values for the "position" and "display" properties multiple times.
+It was tricky.  We spent 2 hours and 37 minutes on this.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+
+We used font-size, font-weight, color, and font-famiy.
+We used border-top and border-bottom as selector properties to replace <hr> tags.
+
+Did you modify the HTML to include classes or ids? 
+
+Yes.
+
+If so, which did you choose and why? 
+
+We used classes and ids to style our HTML, primarily for positioning.
+
+If you didn't, how would you know which one to add to your HTML?
+
+We made up our own names for classes and ids.  
+Otherwise, we would be doing all of the stylization in HTML, which is bad practice.
+
+When you compared your site to the actual code base, 
+which do you think had cleaner code that followed best practices and why?
+
+We had cleaner code because we used CSS.  
+We followed best practice because we did our styling in a separate CSS file.
+*/

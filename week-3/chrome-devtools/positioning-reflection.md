@@ -1,12 +1,13 @@
-![Alt text](/imgs/1 change colors.png)
-![Alt text](/imgs/2 column.png)
-![Alt text](/imgs/3 row.png)
-![Alt text](/imgs/4 make equidistant.png)
-![Alt text](/imgs/5 squares.png)
-![Alt text](/imgs/6 footer.png)
-![Alt text](/imgs/7 header.png)
-![Alt text](/imgs/8 sidebar.png)
-![Alt text](/imgs/9 get creative.png)
+![Alt text](imgs/1 change colors.png)
+![Alt text](imgs/2 column.png)
+![Alt text](imgs/3 row.png)
+![Alt text](imgs/4 make equidistant.png)
+![Alt text](imgs/5 squares.png)
+![Alt text](imgs/6 footer.png)
+![Alt text](imgs/7 header.png)
+![Alt text](imgs/8 sidebar.png)
+![Alt text](imgs/9 get creative.png)
+
 
 <ul>
 	<li>How can you use Chrome's DevTools inspector to help you  
@@ -35,8 +36,11 @@
 		</ul>  
 
 	<li>What are the differences between margin, border, and padding?</li>  
-	![Alt text](http://www.avajava.com/tutorials/cascading-style-sheets/how-are-margins-borders-padding-and-content-related/how-are-margins-borders-padding-and-content-related-01.gif)  
+</ul>  
 
+![Alt text](http://www.avajava.com/tutorials/cascading-style-sheets/how-are-margins-borders-padding-and-content-related/how-are-margins-borders-padding-and-content-related-01.gif)  
+
+<ul>
 	<li>What was your impression of this challenge overall? (love, hate, and why?)</li>  
 	This challenge was good because I need to do the things I am  
 	trying to learn.  Repetition smushes things into my brain.

@@ -1,0 +1,50 @@
+header {
+  text-align: center;
+}
+
+.column-1 {
+  background-color: red;
+  float: left;
+  /*display: inline-block;*/
+  width: 40%;
+  padding: 2em;
+  font-family: sans-serif;
+}
+
+.column-2 {
+  background-color: blue;
+  float: right;
+  /*display: inline-block;*/
+  width: 40%;
+  padding: 2em;
+  font-family: sans-serif;
+}
+
+div {
+  clear: both;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  font-size: 1.5em;
+  border-top: 1px solid black;
+  top: 1em;
+}
+
+img {
+  height: 5em;
+  width: 5em;
+  margin-left: 45%;
+  margin-right: 45%;  
+}
+
+a:hover {
+  color: green;
+  /*font-size: 1.5em;*/
+  font-weight: bold;
+}
+
+a:visited {
+  color: purple;
+}

@@ -4,7 +4,6 @@
 
 
 # Your Solution Below
-# /la/.match(name)
 
 def welcome(address)
   return "Welcome to California" if /CA/.match(address)

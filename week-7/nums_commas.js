@@ -109,11 +109,17 @@ console.log(separateComma(1234567890001));
 
 What was it like to approach the problem from the perspective of JavaScript?
 Did you approach the problem differently?
+We did not approach the problem much differently.  We still pseudocoded input, output,
+and steps.  We ran tests.  Our approach was the same.  Ruby seems to have more
+default features, though.
 
 What did you learn about iterating over arrays in JavaScript?
+It is pretty similar.  The syntax is a little different.  You may have to write some
+methods that the Ruby library already provides, but that's ok.
 
 What was different about solving this problem in JavaScript?
+The syntax was a little different.  All in all, it was similar.
 
 What built-in methods did you find to incorporate in your refactored solution?
-
+We used .toString() to turn a number type object into a string type object.
 */

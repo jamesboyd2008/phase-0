@@ -97,31 +97,28 @@ var game = {
     var carton = ["egg", "egg", "egg", "egg",
                   "egg", "egg", "egg", "egg",
                   "egg", "egg", "egg", "egg"];
-    var specialCarton = [carton, rawEgg]
-    return specialCarton;
+    carton[rawEgg] = "raw";
+    return carton;
   },
 
   displayCarton: function(carton) {
-    console.log(carton[0]);
+    console.log(carton);
   },
 
   selectEgg: function(carton, player) {
     game.displayCarton(carton);
-    var choice = Math.floor(Math.random() * carton[0].length);
+    var choice = Math.floor(Math.random() * carton.length);
     console.log("You chose egg " + (choice + 1).toString());
-    carton[0].splice(choice, 1);
-    if (choice === carton[1]) {
-      console.log("game[player]: " + game[player].head);
+    if (carton[choice] === "raw") {
       game[player].head = "soiled";
     }
+    carton.splice(choice, 1);
     return carton
   },
 
   play: function() {
-    //calls other functions
     var eggCarton = game.generateCarton();
-    console.log("Let's play Egg Smash");
-    //var player = game.player1;
+    console.log("Let's play Egg Smash!");
 
     while (game.player1.head === "clean" && game.player2.head === "clean") {
       console.log("Player 1, choose an egg.");
@@ -141,10 +138,7 @@ var game = {
 
 // Driver Code
 
-// SOMETIMSE THIS WORKS, AND SOMETIMES IT DOESN'T
 game.play();
-
-
 
 
 
@@ -154,8 +148,7 @@ game.play();
 What was the most difficult part of this challenge?
 Figuring out how to get user input on the command line.  I gave up and make a function
 that generates a random answer.  Translating Ruby knowledge into JavaScript knowledge
-brings up some obstacles.  I never got this program to work every time. Something to do
-with which egg is the raw one, maybe...infinite loops.
+brings up some obstacles.
 
 What did you learn about creating objects and functions that interact with one another?
 Scope is weird.  You have to know the scope.  I'm still learning the synatx.

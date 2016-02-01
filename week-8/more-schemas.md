@@ -1,6 +1,6 @@
 Here is a one-to-one schema:  
 
-![one-to-one schema](one-to-one.png)  
+![one-to-one schema](imgs/one-to-one.png)  
 
 This schema demonstrates a one-to-one relationship because there is only one  
 sun in our solar system.  It has multiple properties, but there is still only  
@@ -8,7 +8,7 @@ just one sun.
 
 Here is a many-to-many schema:  
 
-![many-to-many schema](many-to-many.png)
+![many-to-many schema](imgs/many-to-many.png)
 
 ##Reflection
 
